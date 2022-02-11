@@ -230,11 +230,11 @@ namespace GUI
                         UnInit();
                         Reboot();
                     }
-                    // else if (MousePosition.Y > 985 && MousePosition.Y < 1000
-                    // && MousePosition.X < 200)
-                    // {
-                    //     WindowStuff->DrawSubMenu(1);
-                    // }
+                    else if (MousePosition.Y > WindowStuff->ResoHeight - 95 && MousePosition.Y < MousePosition.Y > WindowStuff->ResoHeight - 80
+                    && MousePosition.X)
+                    {
+                        WindowStuff->DrawSubMenu(1);
+                    }
                 }
             }
 
