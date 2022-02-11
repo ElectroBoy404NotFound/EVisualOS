@@ -1,27 +1,3 @@
-#include "IO.hpp"
-
-void outb(uint16_t port, uint8_t value)
-{
-    asm volatile ("outb %0, %1" : : "a"(value), "Nd"(port));
-}
-
-void outw(unsigned short int port, unsigned short int value)
-{
-    asm volatile("outw %%ax, %%dx"
-				 :
-				 : "d"(port), "a"(value));
-}
-
-uint8_t inb(uint16_t port)
-{
-    uint8_t returnVal;
-    asm volatile ("inb %1, %0"
-    : "=a"(returnVal)
-    : "Nd"(port));
-    return returnVal;
-}
-
-void io_wait()
-{
-    asm volatile ("outb %%al, $0x80" : : "a"(0));
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ff1ec367c7fab0ee1a0991f849e3d299ef9f59318777fd28745d529f9462243d
+size 507

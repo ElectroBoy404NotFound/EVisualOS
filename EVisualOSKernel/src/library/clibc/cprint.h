@@ -1,15 +1,3 @@
-#pragma once
-
-#include <stdint.h>
-
-#include "../../ColorCodes.h"
-#include "../../Framebuffer.h"
-#include "../../simpleFonts.h"
-#include "../../math.h"
-
-typedef __builtin_va_list va_list;
-#define va_start(ap, X) __builtin_va_start(ap, X)
-#define va_arg(ap, type) __builtin_va_arg(ap, type)
-#define va_end(ap) __builtin_va_end(ap)
-
-void cprintf(const char* fmt, ...);
+version https://git-lfs.github.com/spec/v1
+oid sha256:74c4af523465a4ea420b7bbcc3d6a16830e8c4025c35b5fc95fa9edfa11e78ff
+size 365

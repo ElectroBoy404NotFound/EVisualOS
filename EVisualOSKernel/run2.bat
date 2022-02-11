@@ -1,8 +1,3 @@
-set OSNAME=ringOS
-set BUILDDIR=%0/../bin
-set OVMFDIR=%0/../../OVMFbin
-
-set BUILDDIR=%BUILDDIR:"=%
-set OVMFDIR=%OVMFDIR:"=%
-qemu-system-x86_64 -machine q35 -drive file=%BUILDDIR%/%OSNAME%.img -m 3G -cpu qemu64 -drive if=pflash,format=raw,unit=0,file=%OVMFDIR%/OVMF_CODE-pure-efi.fd,readonly=on -drive if=pflash,format=raw,unit=1,file=%OVMFDIR%/OVMF_VARS-pure-efi.fd -net none
-pause
+version https://git-lfs.github.com/spec/v1
+oid sha256:e23f1a68b2d8a9c0898016d288403d2365670548dd9f69f406ad14cab5d08e88
+size 381

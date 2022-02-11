@@ -1,10 +1,3 @@
-#pragma once
-
-#include <stdint.h>
-#include <cstddef>
-#include "efiMemory.hpp"
-
-uint64_t GetMemorySize(EFI_MEMORY_DESCRIPTOR* mMap, uint64_t mMapEntries, uint64_t mMapDescSize);
-void memset(void* start, uint8_t value, uint64_t num);
-void memcpy(void *d, const void *s, size_t n);
-int memcmp(const void *aptr, const void *bptr, size_t n);
+version https://git-lfs.github.com/spec/v1
+oid sha256:e914dadce68ee0c5e5ad6a08dcacda192288518517060a1134d4121cac711cc1
+size 345

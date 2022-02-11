@@ -1,25 +1,3 @@
-OUTPUT_FORMAT(elf64-x86-64)
-ENTRY(_start)
-
-SECTIONS
-{
-	_KernelStart = .;
-	.text : ALIGN(0x1000)
-	{
-		*(.text)
-	}
-	.data : ALIGN(0x1000)
-	{
-		*(.data)
-	}
-	.rodata : ALIGN(0x1000)
-	{
-		*(.rodata)
-	}
-	.bss : ALIGN(0x1000)
-	{
-		*(COMMON)
-		*(.bss)
-	}
-	_KernelEnd = .;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:90a0de49925cc7fc916585069585819c876d493d2b0e13375cbce3f4c4aa4bfc
+size 265

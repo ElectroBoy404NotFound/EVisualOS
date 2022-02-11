@@ -1,11 +1,3 @@
-#pragma once
-#include <stdint.h>
-
-const char* to_string(uint64_t value);
-const char* to_string(int64_t value);
-const char* to_hstring(uint64_t value);
-const char* to_hstring(uint32_t value);
-const char* to_hstring(uint16_t value);
-const char* to_hstring(uint8_t value);
-const char* to_string(double value, uint8_t decimalPlaces);
-const char* to_string(double value);
+version https://git-lfs.github.com/spec/v1
+oid sha256:1f300bf8cf652ce44a7b027914b04494a07e91d1c9ba0e0708f87190d32f4cc2
+size 376

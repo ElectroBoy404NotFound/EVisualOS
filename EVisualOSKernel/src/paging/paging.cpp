@@ -1,27 +1,3 @@
-#include "paging.hpp"
-
-void PageDirectoryEntry::SetFlag(PT_Flag flag, bool enabled)
-{
-    uint64_t bitSelector = (uint64_t)1 << flag;
-    Value &= ~bitSelector;
-    if (enabled){
-        Value |= bitSelector;
-    }
-}
-
-bool PageDirectoryEntry::GetFlag(PT_Flag flag)
-{
-    uint64_t bitSelector = (uint64_t)1 << flag;
-    return Value & bitSelector > 0 ? true : false;
-}
-
-uint64_t PageDirectoryEntry::GetAddress(){
-    return (Value & 0x000ffffffffff000) >> 12;
-}
-
-void PageDirectoryEntry::SetAddress(uint64_t address)
-{
-    address &= 0x000000ffffffffff;
-    Value &= 0xfff0000000000fff;
-    Value |= (address << 12);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:12fc43b3b37605817ad1136baa5c392b14a3e7888f03570f8fb19dbc51a59208
+size 643

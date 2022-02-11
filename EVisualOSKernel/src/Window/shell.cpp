@@ -1,14 +1,3 @@
-#include "shell.hpp"
-
-Shell* ShellStuff;
-
-using namespace Renderer;
-using namespace GUI;
-
-void Shell::ShellInit()
-{
-    BasicStuff->Square(300, 300, 200, 200, GRAY);
-
-    GlobalRenderer->CursorPosition2 = {shellx + 20, shelly + 50};
-    printf("ringOS> ");
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0e149fc7fea416325fd2779bbd08de6b279fb0e38fc729531d573c73733624f
+size 271

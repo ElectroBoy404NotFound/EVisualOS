@@ -1,26 +1,3 @@
-#include "acpi.hpp"
-#include "IO.hpp"
-#include "pci.hpp"
-
-namespace ACPI
-{
-
-    void* FindTable(SDTHeader* sdtHeader, char* signature)
-    {
-
-        int entries = (sdtHeader->Length - sizeof(ACPI::SDTHeader)) / 8;
-
-        for (int t = 0; t < entries; t++){
-            ACPI::SDTHeader* newSDTHeader = (ACPI::SDTHeader*)*(uint64_t*)((uint64_t)sdtHeader + sizeof(ACPI::SDTHeader) + (t * 8));
-            for (int i = 0; i < 4; i++)
-            {
-                if (newSDTHeader->Signature[i] != signature[i])
-                {
-                    break;
-                }
-                if (i == 3) return newSDTHeader;
-            }
-        }
-        return 0;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:51e759b908fd5c808cdf6f3c8cc19222f493a39c28b9ef88df6c35c184c45fbf
+size 696

@@ -1,15 +1,3 @@
-#pragma once
-
-enum NUMBERS : char
-{
-    ZERO = '0',
-    ONE = '1',
-    TWO = '2',
-    THREE = '3',
-    FOUR = '4',
-    FIVE = '5',
-    SIX = '6',
-    SEVEN = '7',
-    EIGHT = '8',
-    NINE = '9',
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:071cb4f99f334bf8448bdb06cc58f88ed5f464dbe0b743db783d202f9de231c6
+size 212

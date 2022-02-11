@@ -1,19 +1,3 @@
-#include "efiMemory.hpp"
-
-const char* EFI_MEMORY_TYPE_STRINGS[] {
-
-    "EfiReservedMemoryType",
-    "EfiLoaderCode",
-    "EfiLoaderData",
-    "EfiBootServicesCode",
-    "EfiBootServicesData",
-    "EfiRuntimeServicesCode",
-    "EfiRuntimeServicesData",
-    "EfiConventionalMemory",
-    "EfiUnusableMemory",
-    "EfiACPIReclaimMemory",
-    "EfiACPIMemoryNVS",
-    "EfiMemoryMappedIO",
-    "EfiMemoryMappedIOPortSpace",
-    "EfiPalCode",
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:7437e709cba68cb51d88bdaed40dbc9c443050218380fcfa0340710b25590a6d
+size 455

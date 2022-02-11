@@ -1,10 +1,3 @@
-#include "Reboot.hpp"
-
-void Reboot()
-{
-    uint8_t good = 0x02;
-    while (good & 0x02)
-        good = inb(0x64);
-    outb(0x64, 0xFE);
-    asm ("hlt");
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:99e142face1cff1ae4d11c63890853a13680e9930772dbb38e01d5d1237e460a
+size 163

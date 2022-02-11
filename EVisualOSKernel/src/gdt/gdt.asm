@@ -1,15 +1,3 @@
-[bits 64]
-LoadGDT:   
-    lgdt [rdi]
-    mov ax, 0x10 
-    mov ds, ax
-    mov es, ax
-    mov fs, ax
-    mov gs, ax
-    mov ss, ax
-    pop rdi
-    mov rax, 0x08
-    push rax
-    push rdi
-    retfq
-GLOBAL LoadGDT
+version https://git-lfs.github.com/spec/v1
+oid sha256:9ac17d5be59c73fad5d0c03f27e8d1108283dd4514e13ce6a4b83ab46e71e89f
+size 224

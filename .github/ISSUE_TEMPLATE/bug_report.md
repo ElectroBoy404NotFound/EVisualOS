@@ -1,23 +1,3 @@
----
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: bug
-assignees: ''
-
----
-
-**Describe the bug**
-A clear and concise description of what the bug is.
-
-**Version of ringOS**
-Name of version (Beta14, ...)
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Additional context**
-Add any other context about the problem here.
+version https://git-lfs.github.com/spec/v1
+oid sha256:a56ab241139385c58cc1b4d4c52edd9c9a8423a8d541d331a6a1b0bfb2348553
+size 466
