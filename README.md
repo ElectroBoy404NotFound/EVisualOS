@@ -12,4 +12,5 @@ A Visual Only OS based on RingOS
 ### Step 3:
 #### The kernel will now be build and an raw .img file will be present in EVisualOSKernel/bin and its name will be "EVisualOS.img". In the main folder run ``make run`` to run it and a qemu window should open with the os.
 
-# © ringwormGO 2022
+## © ElectroBoy404NotFound 2022
+## © ringwormGO 2022
