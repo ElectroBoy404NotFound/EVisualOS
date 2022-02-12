@@ -1,5 +1,5 @@
 # EVisualOS
-A Visual Only OS based on RingOS
+A Visual Only OS based on ``ringOS``
 
 ## How to compile?
 
