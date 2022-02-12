@@ -14,4 +14,5 @@ A Visual Only OS based on ``ringOS``
 
 ## Copywrite
 ### <a href="https://github.com/ElectroBoy404NotFound/EVisualOS"> © ElectroBoy404NotFound 2022 <a>
-### <a href="https://github.com/ringwormGO-organization/ringOS"> © ringwormGO 2022 </a>
+### <a href="https://github.com/ringwormGO-organization/ringOS"> © ringwormGO 2022 (ringOS) </a>
+### <a href="https://github.com/Kyota-exe/LuftOS"> © Kyota-exe 2022 (LuftOS) </a>
