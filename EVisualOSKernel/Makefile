@@ -1,6 +1,6 @@
 OSNAME = ringOS
 
-GNUEFI = ../gnu-efi
+GNUEFI = ../EVisualOSBootloader
 OVMFDIR = ../OVMFbin
 LDS = kernel.lld
 CC = g++
