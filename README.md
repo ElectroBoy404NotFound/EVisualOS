@@ -1,5 +1,6 @@
 # EVisualOS
 A Visual Only OS based on ``ringOS``
+Verson: Beta 1.0.0
 
 ## How to compile?
 
