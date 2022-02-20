@@ -2,6 +2,8 @@
 A Visual Only OS based on ``ringOS``
 Verson: Beta 1.0.0
 
+# DEPRICATED!! NOT UPDATED ANYMORE!!
+
 ## How to compile?
 
 ### NOTE: Before you get started, just note that you can only build on Linux. The build is tested on the latest version of Ubuntu only
